@@ -1,11 +1,14 @@
 body{
+    font-family: 'Press Start 2P', cursive;
     background-color:#F6E7D8;
+    color: #420516;
     text-align: center;
 }
 h1{
-    font-family: 'Press Start 2P', cursive;
     font-size: 3rem;
-    color: #420516;
+}
+h3{
+    margin-bottom: 0.3rem;
 }
 .row1-box{
     position: relative;
@@ -16,26 +19,26 @@ h1{
     float: left; 
 }
 .box1, .box2, .box3, .box4{
-    border-radius: 15px;
+    border-radius: 45px;
     height: 190px;
     width: 190px;
     margin: 20px 10px 20px 10px;
     border: solid black 8px;
 }
 .box-container{
-    margin:7% auto;
+    margin:3% auto;
     width: 35%;
 }
-.red{
+#red{
     background-color: red;
 }
-.yellow{
+#yellow{
     background-color: yellow;
 }
-.blue{
+#blue{
     background-color: blue;
 }
-.green{
+#green{
     background-color: green;
 }
 .pressed{
@@ -46,4 +49,10 @@ h1{
 }
 .wrong-key-pressed{
     background-color: #de264e;
+}
+.copyright{
+    font-size: 0.7rem;
+    position: relative;
+    top:33rem;
+    right:30rem
 }
