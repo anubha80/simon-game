@@ -1,0 +1,49 @@
+body{
+    background-color:#F6E7D8;
+    text-align: center;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    color: #420516;
+}
+.row1-box{
+    position: relative;
+    float: left;
+}
+.row2-box{
+    position: relative;
+    float: left; 
+}
+.box1, .box2, .box3, .box4{
+    border-radius: 15px;
+    height: 190px;
+    width: 190px;
+    margin: 20px 10px 20px 10px;
+    border: solid black 8px;
+}
+.box-container{
+    margin:7% auto;
+    width: 35%;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.pressed{
+    box-shadow: 0 3px 4px 0 silver;
+    opacity: 0.5;
+    /* height:160px;
+    width: 160px; */
+}
+.wrong-key-pressed{
+    background-color: #de264e;
+}
